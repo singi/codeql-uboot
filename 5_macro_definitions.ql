@@ -1,5 +1,5 @@
 import cpp
 
-from Function f
-where f.getName() in ["ntohs","ntohl","ntohll"]
-select f, "find some function"
+from Macro m
+where m.getName()  in ["ntohs","ntohl","ntohll"]
+select m, "find some macro"
